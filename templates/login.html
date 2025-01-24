@@ -4,8 +4,8 @@
 
 {% block body %}
 
+<div class="container">
 <h1>Login</h1>
-<div>
     <form action="/login" method="POST">
         <label for="navn">Name:</label>
         <input type="text" id="navn" name="navn" required>
@@ -13,7 +13,7 @@
         <label for="passord">Password:</label>
         <input type="password" id="passord" name="passord" required>
     
-        <button type="submit">Login</button>
+        <button type="submit"><a href="/order">Login</a></button>
     </form>    
     <p>Don't have an account: <a href="/register">Register</a></p>
 </div>
