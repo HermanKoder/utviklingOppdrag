@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+
+.browse {
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1vh;
+}
+
+.browse a {
+    text-decoration: none;
+    color: white;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+}
