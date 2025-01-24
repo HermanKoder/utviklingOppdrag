@@ -19,10 +19,15 @@ body {
     color: white;
 }
 
-
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 3%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

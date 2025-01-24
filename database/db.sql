@@ -1,7 +1,3 @@
-CREATE DATABASE DB;
-
-USE register;
-
 CREATE TABLE users (
     id INT NOT NULL AUTO_INCREMENT,
     navn VARCHAR(255) NOT NULL,
